@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`all heading tests featureHeading tests basic tests matches the snapshot 1`] = `
+.c1 {
+  box-sizing: border-box;
+  font-family: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.c0 {
+  color: #444444;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 18px 0 8px;
+  min-width: 160px;
+}
+
+<h2
+  className="c0 c1"
+  id="testFeatureHeading"
+/>
+`;
+
+exports[`all heading tests heading tests basic tests matches the snapshot 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-family: inherit;
+  margin: 14px 0 22px;
+  font-size: 30px;
+  text-align: left;
+  line-height: 44px;
+}
+
+<h1
+  className="c0"
+  id="testHeading"
+/>
+`;
+
+exports[`all heading tests sectionHeading tests basic tests matches the snapshot 1`] = `
+.c1 {
+  box-sizing: border-box;
+  font-family: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.c0 {
+  color: rgb(68,68,68);
+  font-size: 20px;
+  margin: 0 0 20px;
+  font-weight: 400;
+}
+
+<h2
+  className="c0 c1"
+  id="testSectionHeading"
+/>
+`;
+
+exports[`all heading tests titleHeading tests basic tests matches the snapshot 1`] = `
+.c1 {
+  box-sizing: border-box;
+  font-family: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.c0 {
+  margin: 0;
+  font-weight: 400;
+  white-space: nowrap;
+  font-size: 28px;
+  color: rgb(255,80,0);
+}
+
+<h1
+  className="c0 c1"
+  id="testTitleHeading"
+/>
+`;

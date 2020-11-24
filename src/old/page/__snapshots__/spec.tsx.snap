@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page tests basic tests matches the snapshot 1`] = `
+.c0 {
+  font-family: inherit;
+  color: inherit;
+  padding: 40px;
+  background: inherit;
+  height: initial;
+  background-size: auto;
+  box-sizing: border-box;
+  background-attachment: fixed;
+  font-size: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.c1 {
+  box-sizing: border-box;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+<div
+  className="c0"
+  id="testPage"
+>
+  <main
+    className="c1"
+  />
+</div>
+`;

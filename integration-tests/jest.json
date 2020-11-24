@@ -1,0 +1,6 @@
+{
+  "testMatch": [
+    "<rootDir>/**/*.test.*"
+  ],
+  "preset": "ts-jest/presets/js-with-babel"
+}

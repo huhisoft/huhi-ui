@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card tests basic tests matches the snapshot 1`] = `
+.c0 {
+  max-width: 100%;
+  width: 100%;
+  min-height: auto;
+  margin: 0;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  font-size: inherit;
+  font-family: Muli,sans-serif;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.c1 {
+  padding: 32px;
+}
+
+<div
+  className="c0"
+  data-test-id="testCard"
+>
+  <div
+    className="c1"
+  />
+</div>
+`;

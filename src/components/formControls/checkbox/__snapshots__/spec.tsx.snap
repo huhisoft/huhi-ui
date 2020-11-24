@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox tests basic tests matches the snapshot 1`] = `
+.c0 {
+  font-family: Muli,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 4px;
+  --checkbox-label-color: #686978;
+  --checkbox-label-size: 14px;
+  color: var(--checkbox-label-color);
+  font-size: var(--checkbox-label-size);
+  cursor: pointer;
+}
+
+.c1 {
+  border-radius: 2px;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 2px;
+  --checkbox-box-size: 18px;
+  --checkbox-box-borderColor: #A1A8F2;
+  --checkbox-box-color: #696FDC;
+  --checkbox-box-spacing: 12px;
+  -webkit-flex-basis: var(--checkbox-box-size);
+  -ms-flex-preferred-size: var(--checkbox-box-size);
+  flex-basis: var(--checkbox-box-size);
+  width: var(--checkbox-box-size);
+  height: var(--checkbox-box-size);
+  color: var(--checkbox-box-color);
+  border: 1px solid var(--checkbox-box-borderColor);
+  margin: 8px;
+}
+
+.c4 {
+  border-radius: 2px;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 2px;
+  --checkbox-box-size: 18px;
+  --checkbox-box-borderColor: #D1D1DB;
+  --checkbox-box-color: #696FDC;
+  --checkbox-box-spacing: 12px;
+  -webkit-flex-basis: var(--checkbox-box-size);
+  -ms-flex-preferred-size: var(--checkbox-box-size);
+  flex-basis: var(--checkbox-box-size);
+  width: var(--checkbox-box-size);
+  height: var(--checkbox-box-size);
+  color: var(--checkbox-box-color);
+  border: 1px solid var(--checkbox-box-borderColor);
+  margin: 8px;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 1px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+<div
+  id="checkbox"
+>
+  <div
+    className="c0"
+    onClick={[Function]}
+    size="small"
+    type="light"
+  >
+    <span
+      className="c1"
+      disabled={false}
+      selected={true}
+      size="small"
+      type="light"
+    >
+      <svg
+        aria-hidden="true"
+        className="c2"
+        focusable="false"
+        viewBox="0 0 32 32"
+      >
+        <path
+          d="M13 26a1 1 0 0 1-.67-.26l-9-8.2a1 1 0 0 1 1.34-1.48l8.23 7.49L27.23 6.13A1 1 0 0 1 28.64 6a1 1 0 0 1 .13 1.4l-15 18.24a1 1 0 0 1-.7.36z"
+        />
+      </svg>
+    </span>
+    <span
+      className="c3"
+      disabled={false}
+      size="small"
+    >
+      YouTube
+    </span>
+  </div>
+  <div
+    className="c0"
+    onClick={[Function]}
+    size="small"
+    type="light"
+  >
+    <span
+      className="c4"
+      disabled={false}
+      selected={false}
+      size="small"
+      type="light"
+    />
+    <span
+      className="c3"
+      disabled={false}
+      size="small"
+    >
+      Twitter
+    </span>
+  </div>
+  <div
+    className="c0"
+    onClick={[Function]}
+    size="small"
+    type="light"
+  >
+    <span
+      className="c4"
+      disabled={false}
+      selected={false}
+      size="small"
+      type="light"
+    />
+    <span
+      className="c3"
+      disabled={false}
+      size="small"
+    >
+      Instagram
+    </span>
+  </div>
+</div>
+`;

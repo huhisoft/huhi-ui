@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gridSystem tests column component basic tests matches the snapshot 1`] = `
+.c0 {
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-column: span 12;
+  -webkit-box-pack: initial;
+  -webkit-justify-content: initial;
+  -ms-flex-pack: initial;
+  justify-content: initial;
+  -webkit-align-items: initial;
+  -webkit-box-align: initial;
+  -ms-flex-align: initial;
+  align-items: initial;
+  background-color: inherit;
+  -webkit-flex-direction: initial;
+  -ms-flex-direction: initial;
+  flex-direction: initial;
+  -webkit-flex-wrap: initial;
+  -ms-flex-wrap: initial;
+  flex-wrap: initial;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`gridSystem tests grid component basic tests matches the snapshot 1`] = `
+.c0 {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-gap: 15px;
+  padding: 0;
+  margin: 0;
+  max-width: initial;
+  height: initial;
+  color: inherit;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+<div
+  className="c0"
+  disabled={false}
+/>
+`;

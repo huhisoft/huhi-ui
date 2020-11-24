@@ -1,0 +1,22 @@
+import ITheme from './theme-interface'
+import colors from './colors'
+import defaultTheme from './huhi-default'
+
+const darkTheme: ITheme = {
+  ...defaultTheme,
+  name: 'Huhi Dark',
+  color: {
+    ...defaultTheme.color,
+    contextMenuBackground: colors.black,
+    contextMenuForeground: colors.white,
+    contextMenuHoverBackground: colors.blurple500,
+    contextMenuHoverForeground: colors.white,
+    defaultControl: colors.grey400,
+    defaultControlInteracting: colors.white,
+    defaultControlActive: colors.grey500,
+    panelBackground: colors.grey900,
+    text: colors.white
+  }
+}
+
+export default darkTheme
